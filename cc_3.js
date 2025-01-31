@@ -14,3 +14,16 @@ total_qty = qty.reduce((sum,qty) => sum + qty,0 );
 console.log("quantities: ",qty);
 console.log("Total Quantity: ",total_qty)
 
+//Task #3
+//Creates an object named employee with  sepcifed properties  
+let employee = {
+    name: "Ryan Johnson",
+    role: "CFO",
+    peformanceScore: 9,
+    isActive: true,
+}
+// updates employee performancescore property to 10
+employee.peformanceScore = 10
+// adds employee property qith a boolean value
+employee.promotionEligible = true
+console.log(employee)
