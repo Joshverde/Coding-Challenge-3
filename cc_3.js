@@ -27,3 +27,29 @@ employee.peformanceScore = 10
 // adds employee property qith a boolean value
 employee.promotionEligible = true
 console.log(employee)
+
+//Task #4
+// Creates an array countaining the 3 objecty
+let feedback =[{
+    customerName: "Ron",
+    feedbackText: "I had a horrible time here!",
+    rating: 1,
+},
+{
+    customerName: "Snape",
+    feedbackText: "I love this place!",
+    rating: 10,
+},
+{
+    customerName: "Harry",
+    feedbackText: "I liked my experience here.",
+    rating: 4,
+}
+]
+// adds a new feedback object to the array
+feedback.push({
+    customerName: "Voldermort",
+    feedbackText: "AVADA KADAVERA",
+    rating: 10
+})
+console.log(feedback)
