@@ -53,3 +53,16 @@ feedback.push({
     rating: 10
 })
 console.log(feedback)
+
+//Task #5
+// creates the inventory object with the specifed properties 
+let inventory ={
+    itemName: "Xbox",
+    stockCount: 100,
+    price: 355,
+    calculateTotalValue: function() {
+        return this.price * this.stockCount
+    },
+}
+console.log(inventory)
+console.log(`Total value: ${inventory.calculateTotalValue()}`)
